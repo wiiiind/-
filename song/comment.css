@@ -1,0 +1,103 @@
+.comment {
+    display: inline-flex;
+    margin: 0 30px 40px 39px;
+    padding-top: 47px;
+    font-size: 12px;
+    background-color: #fff;
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+.title2 {
+    width: 880;
+    height: 35px;
+    text-align: left;
+    border-bottom: 2px solid #C10D0C;
+    font-size: 20px;
+}
+
+.CommentNumber {
+    margin: 9px 0 0 20px;
+    color: #666;
+    font-size: 12px;
+
+}
+
+.AddAComment {
+    display: inline-flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.AddAComment img {
+    width: 50px;
+    height: 50px;
+}
+
+.CommentContent1 {
+    margin-left: 14px;
+    padding: 5px 6px 6px;
+    border: 1px solid #cdcdcd;
+    border-radius: 2px;
+    width: 880px;
+    height: 62px;
+    line-height: 19px;
+    text-align: left;
+}
+
+.HotComment {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px dotted #ccc;
+}
+
+.HotComment img {
+    width: 50px;
+    height: 50px;
+}
+
+.HotComment div {
+    padding-top: 20px;
+}
+
+.CommentContainer {
+
+    margin-left: 14px;
+    width: 880px;
+    flex-direction: column;
+    width: 847px;
+    padding-top: 0;
+}
+
+.HotComment .CommentContainer .CommentContent2 {
+    padding-top: 0;
+    width: 847px;
+    text-align: left;
+}
+
+.HotComment .CommentContainer .CommentContent3 {
+    padding-top: 0;
+    height: 50PX;   
+        text-align: left;
+}
+
+
+.HotComment .CommentContainer .CommentOperation {
+    padding-top:0;
+    display: inline-flex;
+    width: 847px;
+    justify-content: space-between;
+}
+
+.Operation{
+        cursor: pointer;
+}
+
+.CommentDate{
+    color:#999999;
+}
+
+.Reply{
+    color:#666666;
+}

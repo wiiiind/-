@@ -1,0 +1,29 @@
+.right {
+    display:inline-block;
+    width: 250px;
+    border: 1px solid rgb(211, 211, 211);
+    border-width: 0 1px;
+    padding: 20px;
+}
+
+.right span{
+        display: inline-block;
+        width:250px;
+}
+
+span.favourite-list {
+    padding-top: 50px;
+}
+
+li{
+    padding-top: 8px;
+    text-align: start;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+input#input {
+    width: 207px;
+    height: 18px;
+        padding-right: 2px;
+}

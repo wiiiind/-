@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="top.css" rel="stylesheet" />
+    <link href="SearchBox.css" rel="stylesheet" />
+    <link href="SearchResult.css" rel="stylesheet" />
+
+    <script src="search.js"></script>
+    <title>网易云音乐</title>
+</head>
+
+<body>
+    <div class="top">
+        <div class="title">
+            <span class="title-left">
+                <span class="logo"><a href="../index/index.html"><img src="../logo.jpg"></a></span>
+                <ul>
+                    <a href="../index/index.html">
+                        <li class="title-link">发现音乐</li>
+                    </a>
+                    <a href="../playlist/playlist.html">
+                        <li class="title-link">歌单广场</li>
+                    </a>
+                    <a id="prevent-visited" href="../search/search.html">
+                        <li class="title-link">搜索</li>
+                    </a>
+                </ul>
+            </span>
+            <span class="user">
+                <img src=../user-avatar-example.jpg>用户名字最长可以有整整十五个字
+            </span>
+            <script>
+                let login = document.querySelector(".user");
+                login.onclick = function () {
+                    alert("暂不支持登录");
+                }
+            </script>
+        </div>
+    </div>
+    <div class="center">
+        <div class="SearchBox">
+            <input class=InputBox type="text">
+            <div class="SearchButton">🔍</div>
+        </div>
+        <div class="HotSearch">
+            <div class="title2">热搜榜</div>
+
+            <div class="HotSearchContent">
+                <a class="HotContent Hot0" src="#">
+                    <span class="rank"></span>
+                    <span class="detail">
+                        <span class="Firstline">
+                            <span class="SearchWord"></span>
+                            <span class="icon"><img src="#"></span>
+                            <span class="score"></span>
+                        </span>
+                        <span class="content"></span>
+                    </span>
+                </a>
+                <a class="HotContent Hot1" src="#">
+                    <span class="rank"></span>
+                    <span class="detail">
+                        <span class="Firstline">
+                            <span class="SearchWord"></span>
+                            <span class="icon"><img src="#"></span>
+                            <span class="score"></span>
+                        </span>
+                        <span class="content"></span>
+                    </span>
+                </a>
+                <a class="HotContent Hot2" src="#">
+                    <span class="rank"></span>
+                    <span class="detail">
+                        <span class="Firstline">
+                            <span class="SearchWord"></span>
+                            <span class="icon"><img src="#"></span>
+                            <span class="score"></span>
+                        </span>
+                        <span class="content"></span>
+                    </span>
+                </a>
+                <a class="HotContent Hot3" src="#">
+                    <span class="rank"></span>
+                    <span class="detail">
+                        <span class="Firstline">
+                            <span class="SearchWord"></span>
+                            <span class="icon"><img src="#"></span>
+                            <span class="score"></span>
+                        </span>
+                        <span class="content"></span>
+                    </span>
+                </a>
+                <a class="HotContent Hot4" src="#">
+                    <span class="rank"></span>
+                    <span class="detail">
+                        <span class="Firstline">
+                            <span class="SearchWord"></span>
+                            <span class="icon"><img src="#"></span>
+                            <span class="score"></span>
+                        </span>
+                        <span class="content"></span>
+                    </span>
+                </a>
+                <a class="HotContent Hot5" src="#">
+                    <span class="rank"></span>
+                    <span class="detail">
+                        <span class="Firstline">
+                            <span class="SearchWord"></span>
+                            <span class="icon"><img src="#"></span>
+                            <span class="score"></span>
+                        </span>
+                        <span class="content"></span>
+                    </span>
+                </a>
+                <a class="HotContent Hot6" src="#">
+                    <span class="rank"></span>
+                    <span class="detail">
+                        <span class="Firstline">
+                            <span class="SearchWord"></span>
+                            <span class="icon"><img src="#"></span>
+                            <span class="score"></span>
+                        </span>
+                        <span class="content"></span>
+                    </span>
+                </a>
+                <a class="HotContent Hot7" src="#">
+                    <span class="rank"></span>
+                    <span class="detail">
+                        <span class="Firstline">
+                            <span class="SearchWord"></span>
+                            <span class="icon"><img src="#"></span>
+                            <span class="score"></span>
+                        </span>
+                        <span class="content"></span>
+                    </span>
+                </a>
+                <a class="HotContent Hot8" src="#">
+                    <span class="rank"></span>
+                    <span class="detail">
+                        <span class="Firstline">
+                            <span class="SearchWord"></span>
+                            <span class="icon"><img src="#"></span>
+                            <span class="score"></span>
+                        </span>
+                        <span class="content"></span>
+                    </span>
+                </a>
+                <a class="HotContent Hot9" src="#">
+                    <span class="rank"></span>
+                    <span class="detail">
+                        <span class="Firstline">
+                            <span class="SearchWord"></span>
+                            <span class="icon"><img src="#"></span>
+                            <span class="score"></span>
+                        </span>
+                        <span class="content"></span>
+                    </span>
+                </a>
+                <a class="HotContent Hot10" src="#">
+                    <span class="rank"></span>
+                    <span class="detail">
+                        <span class="Firstline">
+                            <span class="SearchWord"></span>
+                            <span class="icon"><img src="#"></span>
+                            <span class="score"></span>
+                        </span>
+                        <span class="content"></span>
+                    </span>
+                </a>
+                <a class="HotContent Hot11" src="#">
+                    <span class="rank"></span>
+                    <span class="detail">
+                        <span class="Firstline">
+                            <span class="SearchWord"></span>
+                            <span class="icon"><img src="#"></span>
+                            <span class="score"></span>
+                        </span>
+                        <span class="content"></span>
+                    </span>
+                </a>
+                <a class="HotContent Hot12" src="#">
+                    <span class="rank"></span>
+                    <span class="detail">
+                        <span class="Firstline">
+                            <span class="SearchWord"></span>
+                            <span class="icon"><img src="#"></span>
+                            <span class="score"></span>
+                        </span>
+                        <span class="content"></span>
+                    </span>
+                </a>
+                <a class="HotContent Hot13" src="#">
+                    <span class="rank"></span>
+                    <span class="detail">
+                        <span class="Firstline">
+                            <span class="SearchWord"></span>
+                            <span class="icon"><img src="#"></span>
+                            <span class="score"></span>
+                        </span>
+                        <span class="content"></span>
+                    </span>
+                </a>
+                <a class="HotContent Hot14" src="#">
+                    <span class="rank"></span>
+                    <span class="detail">
+                        <span class="Firstline">
+                            <span class="SearchWord"></span>
+                            <span class="icon"><img src="#"></span>
+                            <span class="score"></span>
+                        </span>
+                        <span class="content"></span>
+                    </span>
+                </a>
+                <a class="HotContent Hot15" src="#">
+                    <span class="rank"></span>
+                    <span class="detail">
+                        <span class="Firstline">
+                            <span class="SearchWord"></span>
+                            <span class="icon"><img src="#"></span>
+                            <span class="score"></span>
+                        </span>
+                        <span class="content"></span>
+                    </span>
+                </a>
+                <a class="HotContent Hot16" src="#">
+                    <span class="rank"></span>
+                    <span class="detail">
+                        <span class="Firstline">
+                            <span class="SearchWord"></span>
+                            <span class="icon"><img src="#"></span>
+                            <span class="score"></span>
+                        </span>
+                        <span class="content"></span>
+                    </span>
+                </a>
+                <a class="HotContent Hot17" src="#">
+                    <span class="rank"></span>
+                    <span class="detail">
+                        <span class="Firstline">
+                            <span class="SearchWord"></span>
+                            <span class="icon"><img src="#"></span>
+                            <span class="score"></span>
+                        </span>
+                        <span class="content"></span>
+                    </span>
+                </a>
+                <a class="HotContent Hot18" src="#">
+                    <span class="rank"></span>
+                    <span class="detail">
+                        <span class="Firstline">
+                            <span class="SearchWord"></span>
+                            <span class="icon"><img src="#"></span>
+                            <span class="score"></span>
+                        </span>
+                        <span class="content"></span>
+                    </span>
+                </a>
+                <a class="HotContent Hot19" src="#">
+                    <span class="rank"></span>
+                    <span class="detail">
+                        <span class="Firstline">
+                            <span class="SearchWord"></span>
+                            <span class="icon"><img src="#"></span>
+                            <span class="score"></span>
+                        </span>
+                        <span class="content"></span>
+                    </span>
+                </a>
+            </div>
+        </div>
+        
+        <div class="SearchResult">
+            <div class="tips">
+                搜索“<span class="SearchKeyword">SearchKeyword</span>”，找到
+                <span style="color:rgb(190,24,38)">20</span> 首单曲
+            </div>
+            <div class="result result0">
+                <a class="SongName"></a>
+                <a class="Singer"></a>
+                <a class="album"></a>
+                <span class="length"></span>
+            </div>
+            <div class="result result1">
+                <a class="SongName"></a>
+                <a class="Singer"></a>
+                <a class="album"></a>
+                <span class="length"></span>
+            </div>
+            <div class="result result2">
+                <a class="SongName"></a>
+                <a class="Singer"></a>
+                <a class="album"></a>
+                <span class="length"></span>
+            </div>
+            <div class="result result3">
+                <a class="SongName"></a>
+                <a class="Singer"></a>
+                <a class="album"></a>
+                <span class="length"></span>
+            </div>
+            <div class="result result4">
+                <a class="SongName"></a>
+                <a class="Singer"></a>
+                <a class="album"></a>
+                <span class="length"></span>
+            </div>
+            <div class="result result5">
+                <a class="SongName"></a>
+                <a class="Singer"></a>
+                <a class="album"></a>
+                <span class="length"></span>
+            </div>
+            <div class="result result6">
+                <a class="SongName"></a>
+                <a class="Singer"></a>
+                <a class="album"></a>
+                <span class="length"></span>
+            </div>
+            <div class="result result7">
+                <a class="SongName"></a>
+                <a class="Singer"></a>
+                <a class="album"></a>
+                <span class="length"></span>
+            </div>
+            <div class="result result8">
+                <a class="SongName"></a>
+                <a class="Singer"></a>
+                <a class="album"></a>
+                <span class="length"></span>
+            </div>
+            <div class="result result9">
+                <a class="SongName"></a>
+                <a class="Singer"></a>
+                <a class="album"></a>
+                <span class="length"></span>
+            </div>
+            <div class="result result10">
+                <a class="SongName"></a>
+                <a class="Singer"></a>
+                <a class="album"></a>
+                <span class="length"></span>
+            </div>
+            <div class="result result11">
+                <a class="SongName"></a>
+                <a class="Singer"></a>
+                <a class="album"></a>
+                <span class="length"></span>
+            </div>
+            <div class="result result12">
+                <a class="SongName"></a>
+                <a class="Singer"></a>
+                <a class="album"></a>
+                <span class="length"></span>
+            </div>
+            <div class="result result13">
+                <a class="SongName"></a>
+                <a class="Singer"></a>
+                <a class="album"></a>
+                <span class="length"></span>
+            </div>
+            <div class="result result14">
+                <a class="SongName"></a>
+                <a class="Singer"></a>
+                <a class="album"></a>
+                <span class="length"></span>
+            </div>
+            <div class="result result15">
+                <a class="SongName"></a>
+                <a class="Singer"></a>
+                <a class="album"></a>
+                <span class="length"></span>
+            </div>
+            <div class="result result16">
+                <a class="SongName"></a>
+                <a class="Singer"></a>
+                <a class="album"></a>
+                <span class="length"></span>
+            </div>
+            <div class="result result17">
+                <a class="SongName"></a>
+                <a class="Singer"></a>
+                <a class="album"></a>
+                <span class="length"></span>
+            </div>
+            <div class="result result18">
+                <a class="SongName"></a>
+                <a class="Singer"></a>
+                <a class="album"></a>
+                <span class="length"></span>
+            </div>
+            <div class="result result19">
+                <a class="SongName"></a>
+                <a class="Singer"></a>
+                <a class="album"></a>
+                <span class="length"></span>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

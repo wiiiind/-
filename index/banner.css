@@ -1,0 +1,38 @@
+.photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    padding: 8px 16px;
+    font-size: 18px;
+    border: none;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.photo img {
+    width: 980px;
+    height: 340px;
+}
+
+.btn:hover {
+    background-color: grey;
+}
+
+/* 设置渐变效果 */
+.fade-in-out {
+    animation: fade 1s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

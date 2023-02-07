@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="top.css" rel="stylesheet" />
+    <link href="center.css" rel="stylesheet" />
+    <link href="comment.css" rel="stylesheet" />
+    <script src="center.js"></script>
+
+
+    <title>歌名 - 歌手 -单曲 - 网易云音乐</title>
+</head>
+
+<body>
+    <div class="top">
+        <div class="title">
+            <span class="title-left">
+                <span class="logo"><a href="../index/index.html"><img src="../logo.jpg"></a></span>
+                <ul>
+                    <a id="prevent-visited" href="../index/index.html">
+                        <li class="title-link">发现音乐</li>
+                    </a>
+                    <a href="../playlist/playlist.html">
+                        <li class="title-link">歌单广场</li>
+                    </a>
+                    <a href="../search/search.html">
+                        <li class="title-link">搜索</li>
+                    </a>
+                </ul>
+            </span>
+            <span class="user">
+                <img src=../user-avatar-example.jpg>用户名字最长可以有整整十五个字
+            </span>
+            <script>
+                let login = document.querySelector(".user");
+                login.onclick = function () {
+                    alert("暂不支持登录");
+                }
+            </script>
+        </div>
+    </div>
+    <div class="main">
+        <div class="center">
+            <div class="album-art">
+                <img src="#" title="专辑封面">
+            </div>
+            <div class="song-information">
+                <div class="SongName">SongName</div>
+                <div class="Singer">歌手：<a href="#" class="SingerName">SingerName</a></div>
+                <div class="OwningAlbum">所属专辑：<a href="#" class="AlbumName">AlbumName</a></div>
+                <div class="ContentOpeartion">
+                    <audio controls src="#"></audio>
+                </div>
+                <div class="lyric-container">
+                    <div class="lyric">
+
+                    </div>
+                    <a class="expand-btn">展开⬇</a>
+                    <a class="collapse-btn">收起⬆</a>
+                </div>
+            </div>
+        </div>
+        <div class="comment">
+            <div class="title2">热门评论
+                <span class="CommentNumber">共CommentNumber条评论</span>
+            </div>
+            <div class="AddAComment">
+                <img src="http://s4.music.126.net/style/web2/img/default/default_avatar.jpg?param=50y50">
+                <input class="CommentContent1" disabled=true value="评论(请先点击右上方登录)">
+            </div>
+            <div class="UserComment">
+                <div class="HotComment0 HotComment">
+                    <div class="UserAvatar"><img title="用户头像" src="#"></div>
+                    <div class="CommentContainer">
+                        <div class="CommentContent2">
+                            <a class="UserNickname"></a>
+                            <div class="CommentContent3"></div>
+                            <div class="CommentOperation">
+                                <span class="CommentDate">评论日期</span>
+                                <span class="Operation">
+                                    <a><span class="LikeNumber">👍 (LikeNumber)</span></a>
+                                    <a><span class="Reply">| 回复</span></a>
+                                    <script>
+                                        let Reply = document.querySelector(".Reply");
+                                        Reply.onclick = function () {
+                                            alert("请先登录后再回复");
+                                        }
+                                    </script>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="HotComment1 HotComment">
+                    <div class="UserAvatar"><img title="用户头像" src="#"></div>
+                    <div class="CommentContainer">
+                        <div class="CommentContent2">
+                            <a class="UserNickname"></a>
+                            <div class="CommentContent3"></div>
+                            <div class="CommentOperation">
+                                <span class="CommentDate">评论日期</span>
+                                <span class="Operation">
+                                    <a><span class="LikeNumber">👍 (LikeNumber)</span></a>
+                                    <a><span class="Reply">| 回复</span></a>
+                                    <script>
+                                        let Reply = document.querySelector(".Reply");
+                                        Reply.onclick = function () {
+                                            alert("请先登录后再回复");
+                                        }
+                                    </script>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="HotComment2 HotComment">
+                    <div class="UserAvatar"><img title="用户头像" src="#"></div>
+                    <div class="CommentContainer">
+                        <div class="CommentContent2">
+                            <a class="UserNickname"></a>
+                            <div class="CommentContent3"></div>
+                            <div class="CommentOperation">
+                                <span class="CommentDate">评论日期</span>
+                                <span class="Operation">
+                                    <a><span class="LikeNumber">👍 (LikeNumber)</span></a>
+                                    <a><span class="Reply">| 回复</span></a>
+                                    <script>
+                                        let Reply = document.querySelector(".Reply");
+                                        Reply.onclick = function () {
+                                            alert("请先登录后再回复");
+                                        }
+                                    </script>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="HotComment3 HotComment">
+                    <div class="UserAvatar"><img title="用户头像" src="#"></div>
+                    <div class="CommentContainer">
+                        <div class="CommentContent2">
+                            <a class="UserNickname"></a>
+                            <div class="CommentContent3"></div>
+                            <div class="CommentOperation">
+                                <span class="CommentDate">评论日期</span>
+                                <span class="Operation">
+                                    <a><span class="LikeNumber">👍 (LikeNumber)</span></a>
+                                    <a><span class="Reply">| 回复</span></a>
+                                    <script>
+                                        let Reply = document.querySelector(".Reply");
+                                        Reply.onclick = function () {
+                                            alert("请先登录后再回复");
+                                        }
+                                    </script>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="HotComment4 HotComment">
+                    <div class="UserAvatar"><img title="用户头像" src="#"></div>
+                    <div class="CommentContainer">
+                        <div class="CommentContent2">
+                            <a class="UserNickname"></a>
+                            <div class="CommentContent3"></div>
+                            <div class="CommentOperation">
+                                <span class="CommentDate">评论日期</span>
+                                <span class="Operation">
+                                    <a><span class="LikeNumber">👍 (LikeNumber)</span></a>
+                                    <a><span class="Reply">| 回复</span></a>
+                                    <script>
+                                        let Reply = document.querySelector(".Reply");
+                                        Reply.onclick = function () {
+                                            alert("请先登录后再回复");
+                                        }
+                                    </script>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+</body>
+
+</html>

@@ -1,0 +1,130 @@
+body {
+    background-color: #f5f5f5;
+
+}
+
+
+.center {
+    padding: 40px;
+    width: 928px;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    height: 1000px;
+}
+
+
+.SearchBox {
+    text-align: center;
+    margin: auto;
+    line-height: 40px;
+    border: 0;
+
+}
+
+.InputBox {
+    width: 370px;
+    height: 40px;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 10px 0 0 10px;
+}
+
+.SearchButton {
+    width: 50px;
+    height: 40px;
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid rgb(206, 206, 206);
+    border-left: 0;
+    border-radius: 0 10px 10px 0;
+    margin-left: -5px;
+}
+
+.title2 {
+    width: 928px;
+    height: 35px;
+    text-align: left;
+    border-bottom: 2px solid #C10D0C;
+    margin: 28px 0 17px;
+    font-size: 20px;
+}
+
+
+.HotContent {
+    margin-bottom:20px;
+    display: inline-flex;
+    height: 46px;
+}
+
+.HotContent:hover,.HotContent:active{
+    background-color: rgb(242,242,242);
+}
+
+.rank {
+    font-size: 24px;
+    color: #666;
+    font-weight: bold;
+    text-align: 2;
+    height: 46px;
+    line-height: 46px;
+    width: 26.7px;
+    float: center;
+}
+
+.Hot0 .rank,
+.Hot1 .rank,
+.Hot2 .rank {
+    color: red;
+}
+
+.Firstline {
+    display: inline-flex;
+    width: 880px;
+
+}
+
+.Firstline span {
+    padding-right: 10px;
+}
+
+.SearchWord{
+    color:rgb(48,48,48);
+}
+
+.Hot0 .SearchWord,
+.Hot1 .SearchWord,
+.Hot2 .SearchWord {
+    font-weight: bold;
+}
+
+.detail {
+    display: inline-flex;
+    width: 883px;
+    margin-left: 20px;
+    font-size: 12px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icon img {
+    height: 13px;
+}
+
+
+.score {
+    color: #999;
+}
+
+.content {
+    float: left;
+    margin-top: 5px;
+    color: #666;
+    text-align: left
+}
+
+.HotSearchContent a:link,
+.HotSearchContent a:visited,
+.HotSearchContent a:hover,
+.HotSearchContent a:active {
+    text-decoration: none;
+}

@@ -1,0 +1,155 @@
+.center {
+    /* width: 980px; */
+    margin: auto;
+    text-align: center;
+    display: flex;
+}
+
+.new {
+    display: inline-block;
+    padding-top: 50px;
+}
+
+
+
+span.recommend {
+    display: inline-block;
+}
+
+.left {
+    display: inline-block;
+    width: 690px;
+    padding: 20px;
+    border: 1px solid rgb(211, 211, 211);
+    border-width: 0 1px;
+}
+
+.title2 {
+    width: 690px;
+    height:35px;
+    text-align: left;
+    border-bottom: 2px solid #C10D0C;
+}
+ 
+span.more {
+    display: inline-block;
+}
+
+.title2 span,
+.title2 div a,
+.title2 div span {
+    line-height: 35px;
+    margin-top: 0;
+}
+
+.title-icon {
+    color: rgb(220, 32, 45);
+    line-height: 17.9px;
+    font-weight: 900;
+}
+
+.title3 {
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    color: #333;
+    text-align: start;
+}
+
+.tab {
+    display: inline-block;
+    margin: 7px 0 0 20px;
+}
+
+
+
+.line {
+    margin: 0 10px;
+    color: #ccc;
+}
+
+.cover img{
+    width:140px;
+    height:140px;
+}
+
+.rcmd-list a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.rcmd-list a:hover {
+    text-decoration: underline;
+}
+
+.rcmd-list a:active {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+.rcmd-list {
+    margin: 20px 0 0 -42px;
+}
+
+.rcmd-list li {
+    width: 140px;
+    height: 204px;
+    padding-left: 42px;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0 0 50px 42px;
+    line-height: 1.4;
+    float: left;
+    overflow: hidden;
+}
+
+.whole-album {
+    margin-top:20px;
+    width: 690px;
+    height: 176px;
+    overflow: hidden;
+    position: relative;
+    background-color:rgb(246,246,246);
+    display: inline-flex;
+    align-content: flex-end;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.whole-album {}
+
+.album-container{
+    width:639px;
+    height: fit-content;
+    overflow: hidden;
+    display: inline-flex;
+    align-items: stretch;
+}
+
+.whole-album button{
+        background-color: transparent;
+            border: none;
+
+}
+
+.album-slider {
+    display: inline-flex;
+    width: 1378px;
+    height: 140px;
+    transition: transform 1s;
+}
+
+.album {
+    width: 100px;
+    height: 126px;
+    margin-right: 31.7px;
+}
+
+.album img{
+    width:100px;
+}
+
+button{
+        cursor: pointer;
+}

@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="top.css" rel="stylesheet" />
+    <link href="banner.css" rel="stylesheet" />
+    <link href="recommend.css" rel="stylesheet" />
+    <link href="favourite.css" rel="stylesheet" />
+    <script src="banner.js"></script>
+
+
+    <title>网易云音乐</title>
+</head>
+
+<body>
+
+    <div class="top">
+        <div class="title">
+            <span class="title-left">
+                <span class="logo"><a href="../index/index.html"><img src="../logo.jpg"></a></span>
+                <ul>
+                    <a id="prevent-visited" href="../index/index.html">
+                        <li class="title-link">发现音乐</li>
+                    </a>
+                    <a href="../playlist/playlist.html">
+                        <li class="title-link">歌单广场</li>
+                    </a>
+                    <a href="../search/search.html">
+                        <li class="title-link">搜索</li>
+                    </a>
+                </ul>
+            </span>
+            <span class="user">
+                <img src=../user-avatar-example.jpg>用户名字最长可以有整整十五个字
+            </span>
+            <script>
+                let login = document.querySelector(".user");
+                login.onclick = function () {
+                    alert("暂不支持登录");
+                }
+            </script>
+        </div>
+    </div>
+
+
+    <div class="photo">
+        <button class="btn" id="prev-btn"><</button>
+
+
+                <a href="#">
+                    <img id="current-photo" src="">
+                </a>
+
+
+                <button class="btn" id="next-btn">></button>
+    </div>
+
+    <div class="center">
+
+        <div class="left">
+            <span class="recommend">
+                <div class="title2">
+                    <span class="title-icon">●</span>
+                    <span class="title3">热门推荐</span>
+                    <span class="tab">
+                        <a class="s-fc3">华语</a>
+                        <span class="line">|</span>
+                        <a class="s-fc3">流行</a>
+                        <span class="line">|</span>
+                        <a class="s-fc3">摇滚</a>
+                        <span class="line">|</span>
+                        <a class="s-fc3">民谣</a>
+                        <span class="line">|</span>
+                        <a class="s-fc3">电子</a>
+                    </span>
+                    <span class="more">
+                        更多
+                        <span class="title-icon">→</span></span>
+
+
+                </div>
+                <ul class="rcmd-list">
+                    <li id="list0">
+                        <a href="#">
+                            <div class="cover">
+                                <img src="picUrl">
+                                <div class="bottom">
+                                    <span class="nb">playCount</span>
+                                </div>
+                            </div>
+                            <p>
+
+                                name
+
+                            </p>
+                        </a>
+                    </li>
+                    <li id="list1">
+                        <a href="#">
+                            <div class="cover">
+                                <img src="picUrl">
+                                <div class="bottom">
+                                    <span class="nb">playCount</span>
+                                </div>
+                            </div>
+                            <p>
+
+                                name
+
+                            </p>
+                        </a>
+                    </li>
+                    <li id="list2">
+                        <a href="#">
+                            <div class="cover">
+                                <img src="picUrl">
+                                <div class="bottom">
+                                    <span class="nb">playCount</span>
+                                </div>
+                            </div>
+                            <p>
+
+                                name
+
+                            </p>
+                        </a>
+                    </li>
+                    <li id="list3">
+                        <a href="#">
+                            <div class="cover">
+                                <img src="picUrl">
+                                <div class="bottom">
+                                    <span class="nb">playCount</span>
+                                </div>
+                            </div>
+                            <p>
+
+                                name
+
+                            </p>
+                        </a>
+                    </li>
+                    <li id="list4">
+                        <a href="#">
+                            <div class="cover">
+                                <img src="picUrl">
+                                <div class="bottom">
+                                    <span class="nb">playCount</span>
+                                </div>
+                            </div>
+                            <p>
+
+                                name
+
+                            </p>
+                        </a>
+                    </li>
+                    <li id="list5">
+                        <a href="#">
+                            <div class="cover">
+                                <img src="picUrl">
+                                <div class="bottom">
+                                    <span class="nb">playCount</span>
+                                </div>
+                            </div>
+                            <p>
+
+                                name
+
+                            </p>
+                        </a>
+                    </li>
+                    <li id="list6">
+                        <a href="#">
+                            <div class="cover">
+                                <img src="picUrl">
+                                <div class="bottom">
+                                    <span class="nb">playCount</span>
+                                </div>
+                            </div>
+                            <p>
+
+                                name
+
+                            </p>
+                        </a>
+                    </li>
+                    <li id="list7">
+                        <a href="#">
+                            <div class="cover">
+                                <img src="picUrl">
+                                <div class="bottom">
+                                    <span class="nb">playCount</span>
+                                </div>
+                            </div>
+                            <p>
+
+                                name
+
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </span>
+            <div class="new">
+                <div class="title2">
+                    <span class="title-icon">●</span>
+                    <span class="title3">新碟上架</span>
+                    <span class="more">
+                        更多
+                        <span class="title-icon">→</span>
+                    </span>
+
+                </div>
+                <div class="whole-album">
+                    <span style="padding:0 2px 0;"><button id="prev"><</button></span>
+                    <span class="album-container">
+
+
+                        <div class="album-slider">
+                            <div class="album0 album">
+                                <span class="album-img"><img
+                                        src="http://p4.music.126.net/vtOxG3qiKbTpoIwhodb-TA==/109951168244473302.jpg?param=100y100"></span>
+                                <span class="album-name">name</span>
+                                <div class="album-singer">sb</div>
+                            </div>
+                            <div class="album1 album">
+                                <span class="album-img"><img
+                                        src="http://p4.music.126.net/vtOxG3qiKbTpoIwhodb-TA==/109951168244473302.jpg?param=100y100"></span>
+                                <span class="album-name">name</span>
+                                <div class="album-singer">sb</div>
+                            </div>
+                            <div class="album2 album">
+                                <span class="album-img"><img
+                                        src="http://p4.music.126.net/vtOxG3qiKbTpoIwhodb-TA==/109951168244473302.jpg?param=100y100"></span>
+                                <span class="album-name">name</span>
+                                <div class="album-singer">sb</div>
+                            </div>
+                            <div class="album3 album">
+                                <span class="album-img"><img
+                                        src="http://p4.music.126.net/vtOxG3qiKbTpoIwhodb-TA==/109951168244473302.jpg?param=100y100"></span>
+                                <span class="album-name">name</span>
+                                <div class="album-singer">sb</div>
+                            </div>
+                            <div class="album4 album">
+                                <span class="album-img"><img
+                                        src="http://p4.music.126.net/vtOxG3qiKbTpoIwhodb-TA==/109951168244473302.jpg?param=100y100"></span>
+                                <span class="album-name">name</span>
+                                <div class="album-singer">sb</div>
+                            </div>
+                            <div class="album5 album">
+                                <span class="album-img"><img
+                                        src="http://p4.music.126.net/vtOxG3qiKbTpoIwhodb-TA==/109951168244473302.jpg?param=100y100"></span>
+                                <span class="album-name">name</span>
+                                <div class="album-singer">sb</div>
+                            </div>
+                            <div class="album6 album">
+                                <span class="album-img"><img
+                                        src="http://p4.music.126.net/vtOxG3qiKbTpoIwhodb-TA==/109951168244473302.jpg?param=100y100"></span>
+                                <span class="album-name">name</span>
+                                <div class="album-singer">sb</div>
+                            </div>
+                            <div class="album7 album">
+                                <span class="album-img"><img
+                                        src="http://p4.music.126.net/vtOxG3qiKbTpoIwhodb-TA==/109951168244473302.jpg?param=100y100"></span>
+                                <span class="album-name">name</span>
+                                <div class="album-singer">sb</div>
+                            </div>
+                            <div class="album8 album">
+                                <span class="album-img"><img
+                                        src="http://p4.music.126.net/vtOxG3qiKbTpoIwhodb-TA==/109951168244473302.jpg?param=100y100"></span>
+                                <span class="album-name">name</span>
+                                <div class="album-singer">sb</div>
+                            </div>
+                            <div class="album9 album">
+                                <span class="album-img"><img
+                                        src="http://p4.music.126.net/vtOxG3qiKbTpoIwhodb-TA==/109951168244473302.jpg?param=100y100"></span>
+                                <span class="album-name">name</span>
+                                <div class="album-singer">sb</div>
+                            </div>
+                        </div>
+
+                    </span>
+
+                    <span style="padding:0 2px 0;"><button id="next">></button></span>
+                    <script>
+                        const slider = document.querySelector('.album-slider');
+                        let currentPage = 0;
+
+                        document.querySelector('#next').addEventListener('click', () => {
+                            currentPage = (currentPage + 1) % 2;
+                            slider.style.transform = `translateX(-${currentPage * 650}px)`;
+                        });
+
+                        document.querySelector('#prev').addEventListener('click', () => {
+                            currentPage = (currentPage + 1) % 2;
+                            slider.style.transform = `translateX(${currentPage * 650}px)`;
+                        });
+                    </script>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <div class="right">
+            <span class="quick-jum">
+                <div class="title2" style="width:250px;"><span class="title3">快速跳转</span></div>
+                <ul>
+                    <li>
+                        <input type="text" id="input">
+                        <button class="jump">跳转</button>
+                        <script>
+                            const input = document.getElementById('input');
+                            const jump = document.querySelector(".jump");
+                            console.log(jump);
+                            let placeholder = '请在这里输入你想跳转的歌曲ID……';
+
+                            input.value = placeholder;
+                            input.style.color = 'gray';
+
+                            input.addEventListener('focus', function () {
+                                if (this.value === placeholder) {
+                                    this.value = '';
+                                    this.style.color = '';
+                                }
+                            });
+
+                            input.addEventListener('blur', function () {
+                                if (this.value === '') {
+                                    this.value = placeholder;
+                                    this.style.color = 'gray';
+                                }
+                            });
+
+                            jump.addEventListener("click", function () {
+                                console.log(input.value)
+                                if (typeof Number(input.value) === "number" && !isNaN(Number(input.value))) {
+                                    window.location.href = "../song/song.html?id=" + Number(input.value);
+                                } else {
+                                    alert("请正确输入歌曲ID");
+                                }
+                            })
+
+                        </script>
+
+                    </li>
+                </ul>
+            </span>
+            <span class="favoutite-song">
+                <div class="title2" style="width:250px;"><span class="title3">我喜欢的音乐</span></div>
+                <ul>
+                    <li>song1</li>
+                    <li>song1</li>
+                    <li>song1</li>
+                </ul>
+            </span>
+            <span class="favourite-list">
+                <div class="title2" style="width:250px;"><span class="title3">我的歌单</span></div>
+                <ul>
+                    <li>♪playist</li>
+                    <li>♪playist</li>
+                    <li>♪playist</li>
+                </ul>
+            </span>
+        </div>
+    </div>
+
+    <div style="background-color:black;color:white;">音量控制（施工中……）</div>
+
+</body>
+
+</html>

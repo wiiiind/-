@@ -18,9 +18,9 @@ window.onload = function () {
         var currentUrl = window.location.href;
         if (currentUrl.indexOf('?') !== -1) {  //搜索模式
             var SearchKeyword = currentUrl.split("?")[1];
-            InputBox.value = SearchKeyword;
+            InputBox.value = decodeURIComponent(SearchKeyword);
             console.log(SearchKeyword)
-            document.querySelector(".SearchKeyword").textContent = SearchKeyword;
+            document.querySelector(".SearchKeyword").textContent = decodeURIComponent(SearchKeyword);
             document.querySelector(".HotSearch").style.display = "none";
             document.querySelector(".SearchResult").style.display = "div";
             res = await fetch("http://localhost:3000/search?keywords=" + SearchKeyword + "&type=1&limit=20");

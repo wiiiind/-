@@ -80,6 +80,7 @@ body {
 .Firstline {
     display: inline-flex;
     width: 880px;
+        align-items: baseline;
 
 }
 
